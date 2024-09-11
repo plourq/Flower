@@ -1,0 +1,263 @@
+@font-face {
+  font-family: Montserat;
+  src: url(../fonts/Montserrat-Bold.ttf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: Montserat;
+  src: url(../fonts/Montserrat-Regular.ttf);
+  font-weight: 400;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserat;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1165px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  position: absolute;
+  padding-top: 40px;
+}
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.header__elems {
+  display: flex;
+  align-items: center;
+}
+.header__icons {
+  display: flex;
+  align-items: center;
+}
+.header__btns {
+  display: flex;
+  align-items: center;
+}
+.header__search {
+  margin-right: 40px;
+}
+
+.btn {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+  background-color: #156963;
+  padding: 8px 33px;
+}
+.btn_w {
+  color: #156963;
+  background-color: #fff;
+}
+
+.main__wrap {
+  display: flex;
+  gap: 77px;
+  align-items: end;
+}
+.main__texts {
+  max-width: 523px;
+}
+.main__title {
+  color: #156963;
+  font-size: 68px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+.main__text {
+  color: #2C1500;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 110px;
+}
+.main__btns {
+  display: flex;
+}
+.main__btn {
+  width: 320px;
+  padding: 40px 50px;
+}
+.main__btn-subtitle {
+  color: #333333;
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  margin-bottom: 12px;
+}
+.main__btn-subtitle_p::before {
+  content: "";
+  display: block;
+  background: url("../img/arrow.svg");
+  width: 32px;
+  height: 32px;
+  margin-right: 9px;
+}
+.main__btn-subtitle_n::after {
+  content: "";
+  display: block;
+  background: url("../img/arrow.svg");
+  width: 32px;
+  height: 32px;
+  margin-left: 9px;
+  transform: rotate(180deg);
+}
+.main__btn-text {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+}
+.main__btn-text_g {
+  color: #156963;
+}
+
+.adventages {
+  padding: 142px 0;
+}
+.adventages__row {
+  display: flex;
+  gap: 32px;
+}
+.adventages__card {
+  padding: 16px 20px;
+  border: 1px solid #E0E0E0;
+}
+.adventages__block {
+  display: flex;
+  gap: 19px;
+  margin-bottom: 16px;
+}
+.adventages__title {
+  color: #156963;
+  font-size: 16px;
+  font-weight: 800;
+  max-width: 108px;
+}
+
+.fplants__container {
+  padding: 80px 56px;
+  height: 352px;
+  max-width: 1500px;
+}
+.fplants__title {
+  margin-left: 56px;
+  margin-right: 56px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  padding-bottom: 43px;
+}
+.fplants__form {
+  max-width: 150px;
+  border: solid 1px black;
+  padding: 8px 30px 8px;
+  display: flex;
+}
+.fplants__row {
+  display: flex;
+  gap: 70px;
+}
+.fplants__card {
+  padding-left: 56px;
+  padding-right: 56px;
+  max-width: 200px;
+  display: flex;
+  text-align: center;
+}
+
+.buymore__container {
+  max-width: 1400px;
+  height: 609px;
+  margin-top: 30px;
+  margin-left: 68px;
+  margin-right: 68px;
+}
+.buymore__text {
+  width: 522px;
+  height: 268px;
+  padding-left: 79px;
+  padding-top: 120px;
+}
+.buymore__img {
+  width: 613px;
+  height: 352px;
+  padding-top: 100px;
+}
+.buymore__img1 {
+  float: left;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-top: 130px;
+}
+.buymore__lorem {
+  font-size: 17px;
+  padding-top: 20px;
+}
+.buymore__img2 {
+  position: relative;
+  height: 580px;
+  display: flex;
+  float: right;
+  bottom: 190px;
+}
+
+.bottom__container {
+  margin-top: 80px;
+  margin-left: 56px;
+  margin-right: 56px;
+  margin-bottom: 140px;
+  background-color: #F3F4F6;
+}
+.bottom__text {
+  font-size: 30px;
+  font-weight: 700;
+  padding-left: 97px;
+  padding-top: 88px;
+}
+.bottom__text > a {
+  background-color: #156963;
+  padding: 10px 42px;
+}
+.bottom__images {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  height: 360px;
+}
+.bottom__images .img-plant {
+  width: 480px;
+  height: 360px;
+}
+
+.footer__container {
+  padding-top: 80px;
+  padding-left: 167px;
+  padding-bottom: 71px;
+  padding-right: 167px;
+  border: 1px solid black;
+  display: flex;
+  gap: 80px;
+  line-height: 40px;
+}
+.footer__box-1 {
+  width: 400px;
+}
+.footer__box-4 {
+  line-height: 50px;
+}
